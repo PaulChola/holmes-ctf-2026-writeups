@@ -1,4 +1,14 @@
-# Holmes CTF 2026 - Sherlock 04: Paper Ghost
+# Paper Ghost
+
+**Holmes CTF 2026 · Sherlock 04 · Windows forensics**
+
+A triage-led reconstruction of a USB-delivered spyware incident using Registry, UserAssist, ConsentStore, SRUM, and Windows Search evidence.
+
+[Download the practice pack](https://github.com/PaulChola/holmes-ctf-2026-writeups/releases/download/practice-packs-2026/PaperGhost.zip) · [All challenge files](README.md)
+
+> The recovered account password is redacted in this public writeup.
+
+---
 
 ## Scenario
 
