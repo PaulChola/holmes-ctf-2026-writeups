@@ -1,8 +1,16 @@
-# SilentDividend Analysis Walkthrough
+# Silent Dividend
+
+**Holmes CTF 2026 · Sherlock · Malware and smart-contract analysis**
+
+Static analysis of a deceptive Electron application, its token-approval flow, and the on-chain challenge contracts.
+
+[Download the practice pack](https://github.com/PaulChola/holmes-ctf-2026-writeups/releases/download/practice-packs-2026/SilentDividend.zip) · [All challenge files](README.md)
+
+---
 
 ## Safety first
 
-Do not run the Windows executable or connect a real wallet. The application copies files to `C:\Users\Public`, starts a Lua script, and requests unlimited token spending permission. Analyze the files in an isolated lab or VM.
+> **Do not run the Windows executable or connect a real wallet.** The application copies files to `C:\Users\Public`, starts a Lua script, and requests unlimited token spending permission. Analyze the files in an isolated lab or VM.
 
 ## 1. Unpack the challenge
 
@@ -94,4 +102,3 @@ Then call `x9()` with that address. The contract decrypts its stored bytes using
 - Approval amount: `ethers.MaxUint256`
 - Wallet provider: `BrowserProvider`
 - HTML contract flag: `51.5049,0.0348`
-
