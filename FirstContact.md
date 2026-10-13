@@ -1,6 +1,14 @@
-# Satellite Visibility Solver
+# First Contact
 
-Automated Python solver for the Hack The Box **First Contact** challenge.
+**Holmes CTF 2026 · Sherlock · Satellite tracking**
+
+An automated Python solver for calculating satellite visibility windows from TLE data and a ground-station location.
+
+[Download the practice pack](https://github.com/PaulChola/holmes-ctf-2026-writeups/releases/download/practice-packs-2026/FirstContact.zip) · [All challenge files](README.md)
+
+---
+
+## Solver Overview
 
 The program connects to the HTB challenge server, receives satellite TLE data and a ground-station location, calculates the satellite visibility windows using Skyfield, sends the answer back, and repeats until the final flag is received.
 
